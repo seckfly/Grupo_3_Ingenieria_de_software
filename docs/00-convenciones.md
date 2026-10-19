@@ -27,4 +27,4 @@ Los commits anteriores a esta convención (por ejemplo, "Add files via upload") 
 
 vX.Y-iterN  →  v1.0-iter1
 
-Todavía no existe ningún tag ni release publicado.
+El tag `v1.0-iter1` identifica el cierre de ITER-1 en `main`, después de integrar el PR conforme a los pasos 8 y 9 de la guía.

@@ -1,1 +1,3 @@
-Pendiente: entregables de la Construcción (ver [roadmap](../iter1-inicio/roadmap.md)).
+# ITER-3 — Construcción
+
+Los entregables de esta fase se organizan según el [roadmap RUP](../iter1-inicio/roadmap.md) y la [matriz fase–artefacto](../iter1-inicio/matriz-fase-artefacto.md).

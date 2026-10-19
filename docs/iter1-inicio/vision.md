@@ -29,7 +29,7 @@ Hoy las citas se piden por teléfono: hay filas de espera, errores de horarios y
 ## 6. Requisitos de alto nivel
 
 - REQ-001: Registrar paciente
-- REQ-002: Reservar cita
+- REQ-002: Reservar cita, con verificación de disponibilidad y confirmación por correo
 - REQ-003: Cancelar cita
 
 ## 7. Restricciones
