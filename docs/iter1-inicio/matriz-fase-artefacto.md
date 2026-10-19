@@ -1,8 +1,8 @@
-# Matriz fase-artefacto - Sistema de reservas de citas
+# Matriz fase–artefacto - Sistema de reservas de citas
 
 Indica qué artefacto se produce en cada fase RUP y con qué nivel de detalle.
 
-**Estados:** Borrador (primera versión) · Base (acordado) · Refinado (mejorado) · Final (entregado) · — (no aplica)
+**Estados:** Borrador (primera versión) · Base (acordado) · Refinado (mejorado) · Final (entregado) · Lista (inventario preliminar de casos de uso, tal como aparece en la tabla de la guía) · — (no aplica).
 
 | Artefacto | Inicio | Elaboración | Construcción | Transición |
 | --- | --- | --- | --- | --- |
@@ -18,16 +18,17 @@ Indica qué artefacto se produce en cada fase RUP y con qué nivel de detalle.
 
 La tabla es una **planificación** del nivel de detalle por fase. No demuestra que los artefactos ya existan.
 
-- «Lista» en Casos de uso (Inicio) se conserva tal como figura en la guía, pero no está definido en la leyenda de estados.
 - Coherencia con el [roadmap](roadmap.md): ITER-1 (Inicio), ITER-2 (Elaboración), ITER-3 (Construcción) e ITER-4 (Transición).
 
 ## Estado actual de los artefactos (fin de ITER-1)
 
-| Artefacto | Existe en el repositorio | Ubicación |
-| --- | --- | --- |
-| Documento de Visión | Sí (v1) | [vision.md](vision.md) |
-| Diagrama de actividad (CU-002) | Sí | [modelos/iter1](../../modelos/iter1/actividad-reservar-cita.png) |
-| SRS breve | No | — |
-| Casos de uso | No (solo se mencionan CU-001 y CU-002 en el diagrama) | — |
-| Diagrama de clases, de secuencia y de estados (Cita) | No (fases posteriores) | — |
-| Casos de prueba y manual de usuario | No (fases posteriores) | — |
+| Artefacto | Estado actual | Ubicación |
+|---|---|---|
+| Documento de Visión | Existe (v1 base) | [vision.md](vision.md) |
+| SRS breve | Existe como Borrador | [srs-breve.md](srs-breve.md) |
+| Casos de uso | Lista preliminar CU-001 a CU-003; flujos de CU-002 resumidos | [srs-breve.md](srs-breve.md) |
+| Diagrama de actividad (CU-002) | Existe | [PNG](../../modelos/iter1/actividad-reservar-cita.png) · [fuente .drawio](../../modelos/iter1/actividad-reservar-cita.drawio) |
+| Diagrama de clases, de secuencia y de estados (Cita) | Pendientes de fases posteriores | — |
+| Casos de prueba y manual de usuario | Pendientes de fases posteriores | — |
+
+La especificación detallada de CU-001 y CU-003 está prevista para ITER-2, conforme a la matriz.

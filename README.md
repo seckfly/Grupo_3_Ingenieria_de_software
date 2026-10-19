@@ -6,6 +6,7 @@ Repositorio del Grupo 3 (Ingeniería de Software). Proyecto: sistema para que lo
 
 - [Convenciones](docs/00-convenciones.md)
 - [Documento de Visión v1](docs/iter1-inicio/vision.md)
+- [SRS breve (Borrador)](docs/iter1-inicio/srs-breve.md)
 - [Roadmap](docs/iter1-inicio/roadmap.md)
 - [Matriz fase–artefacto](docs/iter1-inicio/matriz-fase-artefacto.md)
 - [Glosario](docs/iter1-inicio/glosario.md)
@@ -20,9 +21,10 @@ Iteraciones futuras: [ITER-2](docs/iter2-elaboracion/README.md) · [ITER-3](docs
 
 | Elemento | Estado |
 |---|---|
-| Documentos y diagrama de ITER-1 | Creados en la rama `iter1-inicio` |
-| Tablero de Trello | **Pendiente de revisión**; no hay enlace ni verificación |
-| Revisión por pares | **Pendiente** (sin revisor confirmado) |
-| Pull Request de `iter1-inicio` a `main` | Abierto, sin mergear |
-| Versión publicada | Ninguna (`v1.0-iter1` aún no existe) |
-| Informe PDF | Borrador; faltan evidencias |
+| Documentos y diagrama de ITER-1 | En la rama `iter1-inicio`; SRS breve en borrador |
+| Tablero de Trello | Pendiente de confirmar el tablero correcto. El enlace proporcionado previamente mostraba tarjetas de un proyecto comercial, por lo que no se publica como enlace verificado |
+| Revisión por pares | Pendiente; sin revisor confirmado |
+| Pull Request de `iter1-inicio` a `main` | [PR #1 abierto, sin mergear](https://github.com/seckfly/Grupo_3_Ingenieria_de_software/pull/1) |
+| Versión publicada | Ninguna; `v1.0-iter1` aún no existe |
+| Informe PDF | Pendiente de completar con evidencias reales de los nueve pasos |
+

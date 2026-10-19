@@ -1,32 +1,34 @@
 # Checklist de coherencia - ITER-1
 
-Revisión hecha por la persona que prepara el repositorio, sobre los documentos que existen hoy: [Visión](vision.md), [matriz](matriz-fase-artefacto.md), [roadmap](roadmap.md), [glosario](glosario.md), [riesgos](riesgos.md) y el [diagrama de CU-002](../../modelos/iter1/actividad-reservar-cita.png). **No existen** SRS ni documento de casos de uso; las comprobaciones que dependen de ellos o de Trello quedan pendientes. Esto no sustituye la revisión por pares ([revision-pares.md](revision-pares.md)).
+Revisión documental realizada por quien prepara el repositorio sobre la [Visión](vision.md), el [SRS breve](srs-breve.md), la [matriz](matriz-fase-artefacto.md), el [roadmap](roadmap.md), el [glosario](glosario.md), los [riesgos](riesgos.md) y el [diagrama de CU-002](../../modelos/iter1/actividad-reservar-cita.png). **Esto no sustituye la revisión por pares** ([revision-pares.md](revision-pares.md)) ni valida el proyecto con un cliente.
 
-Leyenda: ✅ cumple · ❌ → ✅ inconsistencia detectada y corregida · ⏳ pendiente
+Leyenda: ✅ cumple · ⚠️ parcial o requiere validación · ⏳ pendiente.
 
 | # | Verificación | Resultado | Observación |
 |---|---|---|---|
-| 1 | El actor se llama igual en Visión, SRS y diagramas | ✅ (Visión y diagrama) · ⏳ SRS | Visión y diagrama usan Paciente, Administrador y (solo la Visión) Recepcionista; no aparecen Usuario ni Cliente. El SRS no existe. |
-| 2 | Cada REQ de la Visión tiene un caso de uso | ⏳ | No existe documento de casos de uso. Solo el diagrama cita CU-001 (REQ-001) y CU-002 (REQ-002); CU-003 (REQ-003) no figura en ningún artefacto. |
-| 3 | Cada excepción del diagrama figura como flujo alterno en el CU | ⏳ | E1, E2, E3 y C1 están en el diagrama y en la descripción de la guía, pero no hay CU-002 escrito donde verificarlo. |
-| 4 | Nada modelado está fuera del alcance de la Visión | ✅ | El diagrama no contiene pagos, historia clínica ni telemedicina. |
-| 5 | Los IDs siguen la convención (REQ-###, CU-###, RSK-###) | ✅ | REQ-001..003, CU-001/002, RSK-001..005 e ITER-1..4 siguen la convención. Los commits anteriores ("Add files via upload") no la siguen; el historial no se reescribió. |
-| 6 | Todo lo que la Visión incluye aparece en algún artefacto | ⏳ parcial | Reserva de citas y confirmación: en el diagrama. Registro de pacientes: solo referido como CU-001 (E2). Cancelación de citas (REQ-003): solo en la Visión, sin modelo ni CU. |
-| 7 | La matriz es coherente con el roadmap | ✅ | Cuatro fases e iteraciones ITER-1..4; entregables del roadmap alineados con la matriz. |
-| 8 | Roadmap y tablero de Trello corresponden | ⏳ | Fuera de alcance por ahora; no se ha accedido a Trello. |
+| 1 | Los actores y conceptos se nombran coherentemente en Visión, SRS y diagrama | ⚠️ Parcial | Paciente y Administrador se usan de forma coherente. Recepcionista aparece como interesado en la Visión, pero su necesidad de consultar horarios y citas no está vinculada a un requisito funcional; validar si forma parte del alcance. |
+| 2 | Cada REQ de la Visión tiene un caso de uso asociado | ✅ | REQ-001 → CU-001, REQ-002 → CU-002 y REQ-003 → CU-003 en el SRS breve. CU-001 y CU-003 permanecen como lista preliminar hasta ITER-2. |
+| 3 | Cada excepción del diagrama figura como flujo alterno en CU-002 | ✅ | El SRS breve resume E1 (horario ocupado), E2 (paciente no registrado), E3 (fallo de confirmación) y C1 (liberación del horario). |
+| 4 | Nada modelado está fuera del alcance de la Visión | ✅ | El diagrama no incluye pagos, historia clínica ni telemedicina. |
+| 5 | Los IDs siguen las convenciones (REQ-###, CU-###, RSK-###, ITER-#) | ✅ | REQ-001..003, CU-001..003, RSK-001..005 e ITER-1..4 respetan el formato. Los commits históricos no se reescribieron; los nuevos commits deben seguir la convención. |
+| 6 | Todo lo que la Visión incluye aparece en algún artefacto | ⚠️ Parcial | Registro, reserva, confirmación y cancelación aparecen en el SRS y la lista de casos de uso; el detalle de CU-001 y CU-003 se prevé para ITER-2. La necesidad de la recepcionista requiere validación de alcance. |
+| 7 | La matriz fase–artefacto es coherente con el roadmap | ✅ | Las cuatro fases y los niveles previstos de SRS/casos de uso coinciden con el roadmap actualizado. |
+| 8 | Roadmap y tablero de Trello corresponden | ⏳ Pendiente | El tablero correcto no está confirmado. No se ha realizado ni documentado la sincronización con Trello. |
 
 ## Hallazgos detectados
 
-| # | Hallazgo | Corrección | Estado |
+| # | Hallazgo | Corrección o acción | Estado |
 |---|---|---|---|
-| H1 | `vision.md` tenía caracteres de escape (`\#`, `\-`) y líneas en blanco entre cada línea: títulos, listas y tabla de interesados no se renderizaban | Se reescribió el Markdown conservando el contenido y los IDs | Corregido |
-| H2 | La Visión decía "errores de agenda" y "Ver la agenda", pero el glosario prohíbe "Agenda" para Horario | Se cambió a "errores de horarios" y "Ver los horarios y las citas sin duplicados" | Corregido |
-| H3 | La confirmación por correo no estaba vinculada de forma explícita a la reserva | Alcance: "confirmación por correo de cada cita reservada"; REQ-002 la incluye | Corregido |
-| H4 | El diagrama usaba "reserva" como nombre de cita ("Fin: reserva no completada") | Ahora "Fin: cita no registrada"; "Regresa a la reserva" pasó a "Regresa al inicio de sesión" | Corregido |
-| H5 | El diagrama reintentaba con "intento + 1" pero el contador nunca se inicializaba, y "Intentos < 3" con "No (3 fallos)" era ambiguo | Se agregó "Inicializar contador reintentos = 0"; la decisión es "¿Reintentos < 3?" (hasta 3 reintentos tras el primer envío fallido) | Corregido |
-| H6 | Un solo final "Fin: cita registrada" mezclaba la confirmación enviada con el estado Pendiente | Dos finales: "cita registrada y confirmación enviada" y "cita registrada, confirmación pendiente" (Pendiente = confirmación no enviada; la cita sí está registrada) | Corregido |
-| H7 | Los archivos estaban en la raíz con nombres que no seguían la convención | Movidos y renombrados a la estructura de la guía | Corregido |
-| H8 | El estado «Lista» (Casos de uso, Inicio) no está en la leyenda de estados de la matriz | Se conserva como en la guía y se anotó en la matriz | Observado, sin cambio |
-| H9 | La Visión no documenta línea base para "reducir a la mitad el tiempo de reserva" | Se anotó "(línea base por medir)"; sin inventar cifras | Anotado |
-| H10 | El diagrama dice "Enviar confirmación" sin precisar el canal (la Visión dice correo) | Sin cambio; el glosario define Confirmación como mensaje por correo | Observado |
-| H11 | El repositorio no se llama `Tema6_ApellidoNombre` como pide la guía | Sin cambio (requiere decisión del usuario) | Pendiente |
+| H1 | `vision.md` tenía caracteres de escape y saltos que afectaban títulos, listas y tabla | Se corrigió el Markdown conservando el contenido y los IDs | Corregido |
+| H2 | La Visión usaba «agenda» pese al glosario | Se cambió a «horarios» y «citas» | Corregido |
+| H3 | La confirmación por correo no estaba vinculada explícitamente a la reserva | Se vinculó a la cita reservada en el alcance y REQ-002 | Corregido |
+| H4 | El diagrama usaba «reserva» como nombre de la cita | Se unificó el término a «cita» | Corregido |
+| H5 | El contador de reintentos no estaba inicializado y el límite era ambiguo | Se inicializa en cero y se documentan hasta tres reintentos posteriores al primer envío fallido | Corregido |
+| H6 | Un solo final mezclaba confirmación enviada y pendiente | Se separaron los finales de cita registrada y confirmación enviada/pendiente | Corregido |
+| H7 | Los archivos no seguían la estructura y los nombres de la guía | Se movieron y renombraron a `docs/iter1-inicio` y `modelos/iter1` | Corregido |
+| H8 | «Lista» aparece en la matriz de la guía, pero no estaba definida entre los estados | Se definió como inventario preliminar de casos de uso | Corregido |
+| H9 | La meta de reducir a la mitad el tiempo de reserva no tenía línea base | Se identificó la línea base como pendiente de medir | Anotado |
+| H10 | El diagrama dice «Enviar confirmación al paciente» sin repetir «por correo» en esa etiqueta | El glosario define Confirmación como correo; puede hacerse explícito al exportar una nueva versión del diagrama | Observado |
+| H11 | El nombre del repositorio no sigue literalmente el ejemplo `Tema6_ApellidoNombre` | Se conserva el repositorio grupal actual para no romper su enlace sin autorización | Pendiente de decisión |
+| H12 | Faltaba el SRS breve y no existía una lista que vinculara REQ-001..003 con CU-001..003 | Se creó este SRS en Borrador con trazabilidad preliminar y los flujos E1, E2, E3 y C1 de CU-002 | Corregido; CU-001 y CU-003 se detallarán en ITER-2 |
+| H13 | La necesidad de la recepcionista no se vincula a un requisito de alto nivel | No se inventó un REQ nuevo; se dejó indicada la necesidad de validar el alcance | Pendiente de validación |
