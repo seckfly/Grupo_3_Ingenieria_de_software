@@ -18,8 +18,5 @@ Comprobación de coherencia entre la Visión, el SRS breve y los modelos de CU-0
 | 1 | La Visión utilizaba «agenda», mientras el glosario establece «Horario» como término oficial | Se cambió a «horarios» en la Visión para mantener la terminología consistente | Corregido |
 | 2 | El repositorio no tenía un SRS breve que relacionara los requisitos con los casos de uso | Se creó el SRS breve y se vinculó REQ-001 a CU-001, REQ-002 a CU-002 y REQ-003 a CU-003 | Corregido |
 | 3 | El SRS breve debía registrar los flujos alternos del proceso crítico para contrastarlos con el diagrama | Se documentaron E1, E2, E3 y C1 en el SRS breve | Corregido |
-
 | 4 | El significado de Pendiente y el número de reintentos debían estar expresos en la documentación | Se añadieron las definiciones al glosario y el control del contador al SRS, en correspondencia con el diagrama | Corregido |
-| 5 | El roadmap contenía notas editoriales y no explicitaba los ítems de mitigación por iteración | Se consolidó el plan de siete semanas y se vinculó RSK-001 a RSK-004 con ITER-1 a ITER-4 | Corregido |
-
-La verificación se aplica al contenido documental y al modelo del repositorio. El checklist de coherencia no sustituye la revisión por pares ni acredita la ejecución de acciones en Trello.
+| 5 | El roadmap debía relacionar las mitigaciones con cada iteración | Se consolidó el plan de siete semanas y se vincularon RSK-001 a RSK-004 con ITER-1 a ITER-4 | Corregido |
