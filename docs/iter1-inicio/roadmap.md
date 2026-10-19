@@ -2,18 +2,19 @@
 
 Plan de las cuatro iteraciones, conforme a la matriz fase–artefacto y la guía del Tema 6.
 
-> **Responsables:** distribución propuesta a solicitud de Marco Antonio Martell Alvarez. Debe comunicarse al grupo para confirmar disponibilidad. Los plazos son relativos y siguen el ejemplo de la guía; faltan fechas calendario acordadas para Trello.
+> **Asignación propuesta a solicitud del grupo:** Isaí asume análisis de alcance; Alejandro, arquitectura y diseño técnico; Marco, desarrollo/integración y liderazgo; César, apoyo acotado a planificación de pruebas; Alonso, apoyo documental y recopilación de evidencias. Confirmar la distribución entre los cinco integrantes. Los plazos son relativos y siguen el ejemplo de la guía; las fechas calendario aún deben acordarse.
 
 | Fase | Iteración | Objetivo | Entregables | Responsable | Plazo |
 |---|---|---|---|---|---|
 | Inicio | ITER-1 | Acordar alcance y viabilidad | Visión v1, SRS breve (Borrador), lista preliminar de casos de uso, roadmap, matriz fase–artefacto, riesgos, diagrama de actividad de CU-002, glosario y checklist de coherencia | **Isaí Samuel Bejarano Benites — Analista** | Semana 1 (propuesta; fecha calendario por confirmar) |
 | Elaboración | ITER-2 | Diseñar y validar el núcleo riesgoso | Refinar el SRS breve, detallar los casos de uso, diagrama de clases, diagrama de secuencia y prototipo | **Alejandro Horna Quezada — Arquitecto** | Semanas 2–3 (propuesta; fechas por confirmar) |
-| Construcción | ITER-3 | Construir las funciones | Módulo de reservas, pruebas y diagrama de estados de Cita | **Cesar Jeremin Alonso Chuquimango Reyes — Desarrollador** | Semanas 4–6 (propuesta; fechas por confirmar) |
+| Construcción | ITER-3 | Construir las funciones | Módulo de reservas, pruebas y diagrama de estados de Cita | **Alejandro Horna Quezada — responsable técnico de Construcción**, con Marco Antonio Martell Alvarez apoyando desarrollo e integración | Semanas 4–6 (propuesta; fechas por confirmar) |
 | Transición | ITER-4 | Entregar al usuario | Manual de usuario, pruebas de aceptación y puesta en marcha | **Marco Antonio Martell Alvarez — Líder de proyecto** | Semana 7 (propuesta; fecha calendario por confirmar) |
 
-## Apoyo asignado
+## Apoyos específicos
 
-**Alonso Castillo Davalos:** apoyo documental de Transición: preparar el manual de usuario y recopilar/ordenar las evidencias reales para el PDF de entrega. Esta es una tarea acotada y vinculada a entregables que la guía ya solicita.
+- **Cesar Jeremin Alonso Chuquimango Reyes:** apoyo acotado para organizar el checklist y la preparación de casos de prueba de RSK-003.
+- **Alonso Castillo Davalos:** apoyo documental de Transición: ordenar evidencias reales y ayudar a preparar el manual de usuario y el PDF de entrega.
 
 ## Estado
 

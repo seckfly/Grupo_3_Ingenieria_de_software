@@ -17,14 +17,23 @@ Repositorio del Grupo 3 (Ingeniería de Software). Proyecto: sistema para que lo
 
 Iteraciones futuras: [ITER-2](docs/iter2-elaboracion/README.md) · [ITER-3](docs/iter3-construccion/README.md) · [ITER-4](docs/iter4-transicion/README.md) (pendientes).
 
+## Responsabilidades propuestas
+
+- **Isaí Samuel Bejarano Benites:** Analista de ITER-1; validar alcance y requisitos.
+- **Alejandro Horna Quezada:** Arquitecto de ITER-2 y responsable técnico propuesto para ITER-3.
+- **Marco Antonio Martell Alvarez:** apoyo de desarrollo e integración de ITER-3 y Líder de proyecto de ITER-4.
+- **Cesar Jeremin Alonso Chuquimango Reyes:** apoyo acotado para el checklist y la preparación de pruebas de RSK-003.
+- **Alonso Castillo Davalos:** apoyo documental de Transición; organizar evidencias reales y ayudar con el manual/PDF.
+
+La distribución es una propuesta solicitada por el grupo y debe confirmarse entre los integrantes.
+
 ## Estado de la entrega
 
 | Elemento | Estado |
 |---|---|
 | Documentos y diagrama de ITER-1 | En la rama `iter1-inicio`; SRS breve en borrador |
-| Responsables | Nombres y roles propuestos en el roadmap y riesgos; confirmar distribución con el grupo |
-| Tablero de Trello | Pendiente de confirmar el tablero correcto. El enlace anterior mostraba tarjetas de un proyecto comercial, por lo que no se publica como enlace verificado |
-| Revisión por pares | Pendiente; revisor propuesto en `revision-pares.md`, sin revisión real registrada |
+| Tablero de Trello | Pendiente de confirmar el tablero correcto; el enlace anterior mostraba tarjetas de un proyecto comercial |
+| Revisión por pares | Pendiente; Isaí está propuesto como revisor, pero no hay revisión real registrada |
 | Pull Request de `iter1-inicio` a `main` | [PR #1 abierto, sin mergear](https://github.com/seckfly/Grupo_3_Ingenieria_de_software/pull/1) |
 | Versión publicada | Ninguna; `v1.0-iter1` aún no existe |
 | Informe PDF | Pendiente de completar con evidencias reales de los nueve pasos |

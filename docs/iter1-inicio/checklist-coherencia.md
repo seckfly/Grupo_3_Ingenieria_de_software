@@ -6,12 +6,12 @@ Leyenda: ✅ cumple · ⚠️ parcial o requiere validación.
 
 | # | Verificación de la guía | Resultado | Observación |
 |---|---|---|---|
-| 1 | El actor principal se llama igual en Visión, SRS y diagramas | ✅ | El actor principal de CU-002 se denomina «Paciente» en los artefactos. Recepcionista y Administrador aparecen como interesados/roles, no como actor principal de este caso de uso. |
+| 1 | El actor principal se llama igual en Visión, SRS y diagramas | ✅ | El actor principal de CU-002 se denomina «Paciente» en los artefactos. |
 | 2 | Cada REQ de la Visión tiene un caso de uso asociado | ✅ | REQ-001 → CU-001, REQ-002 → CU-002 y REQ-003 → CU-003 en el SRS breve. CU-001 y CU-003 siguen como lista preliminar; se detallarán en Elaboración. |
 | 3 | Cada excepción del diagrama figura como flujo alterno en el CU | ✅ | El SRS breve resume E1 (horario ocupado), E2 (paciente no registrado), E3 (fallo de confirmación) y C1 (liberación del horario). |
-| 4 | Nada modelado está fuera del alcance de la Visión | ✅ | El diagrama no incluye pagos, historia clínica ni telemedicina. E3 y C1 siguen la guía del laboratorio. |
+| 4 | Nada modelado está fuera del alcance de la Visión | ⚠️ | La necesidad de la recepcionista de consultar horarios/citas aparece en la Visión, pero no está especificada como requisito funcional. El grupo debe validar si forma parte del alcance. |
 | 5 | Los IDs siguen la convención (REQ-###, CU-###, RSK-###) | ✅ | REQ-001..003, CU-001..003 y RSK-001..005 usan el formato indicado. Los commits históricos no se reescribieron; los nuevos commits deben seguir la convención. |
-| 6 | Todo lo que la Visión incluye aparece en algún artefacto | ⚠️ | Registro, reserva, confirmación y cancelación están vinculados a REQ/CU. La necesidad de la recepcionista de consultar horarios/citas no está descrita como requisito funcional; el grupo debe decidir si forma parte del alcance. |
+| 6 | Todo lo que la Visión incluye aparece en algún artefacto | ⚠️ | Registro, reserva, confirmación y cancelación están vinculados a REQ/CU. La necesidad de la recepcionista requiere decisión de alcance antes de afirmar cobertura completa. |
 
 ## Hallazgos detectados
 
@@ -30,5 +30,5 @@ Leyenda: ✅ cumple · ⚠️ parcial o requiere validación.
 | H11 | El nombre del repositorio no sigue literalmente el ejemplo `Tema6_ApellidoNombre` | Se conserva el repositorio grupal actual para no cambiar su URL sin autorización; confirmar si el docente exige literalmente el patrón del ejemplo | Pendiente de confirmar |
 | H12 | Faltaba el SRS breve y no existía una lista que vinculara REQ-001..003 con CU-001..003 | Se creó el SRS en Borrador con trazabilidad preliminar y los flujos E1, E2, E3 y C1 de CU-002 | Corregido; CU-001 y CU-003 se detallarán en ITER-2 |
 | H13 | La necesidad de la recepcionista no se vincula a un requisito de alto nivel | No se inventó un requisito nuevo; el grupo debe validar si esa función entra en el alcance | Pendiente de validación |
-| H14 | Roadmap y riesgos indicaban solo roles, sin integrantes responsables | Se asignaron nombres de integrantes y roles en el roadmap y en la tabla de riesgos | Corregido; confirmar la distribución con el grupo |
-| H15 | El checklist incluía comprobaciones adicionales a las seis que lista el paso 5 de la guía | Se dejó el checklist principal con las seis verificaciones indicadas en la guía | Corregido |
+| H14 | Roadmap y riesgos indicaban roles sin integrantes responsables | Se asignaron nombres a iteraciones y riesgos según la distribución propuesta por el grupo | Propuesto; confirmar con el grupo |
+| H15 | El checklist incluía comprobaciones adicionales a las seis del paso 5 | Se ajustó el checklist principal a las seis verificaciones de la guía | Corregido |
