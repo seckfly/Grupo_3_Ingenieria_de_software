@@ -12,7 +12,7 @@
 
 ## CU-002 — Reservar cita
 
-**Flujo principal:** el paciente inicia sesión, elige especialidad, fecha y horario; el sistema comprueba la disponibilidad, bloquea el horario, registra la cita y envía la confirmación.
+**Flujo principal:** el paciente inicia sesión, elige especialidad, fecha y horario; el sistema comprueba la disponibilidad, bloquea el horario, registra la cita y envía la confirmación por correo al paciente.
 
 | Tipo | Descripción |
 |---|---|

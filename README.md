@@ -15,13 +15,13 @@ Repositorio de ensayo del Grupo 3 para la práctica de RUP y UML del Tema N.° 6
 - [Convenciones](docs/00-convenciones.md)
 - [Revisión por pares](docs/iter1-inicio/revision-pares.md)
 
-## Responsables propuestos
+## Distribución de responsabilidades del repositorio de ensayo
 
 - **Isaí Samuel Bejarano Benites:** Analista (ITER-1).
 - **Alejandro Horna Quezada:** Arquitecto (ITER-2).
 - **Cesar Jeremin Alonso Chuquimango Reyes:** Desarrollador (ITER-3).
 - **Marco Antonio Martell Alvarez:** Líder de proyecto (ITER-4).
-- **Alonso Castillo Davalos:** apoyo documental; responsable propuesto de RSK-004.
+- **Alonso Castillo Davalos:** apoyo documental y responsable de RSK-004.
 
 ## Estado
 
