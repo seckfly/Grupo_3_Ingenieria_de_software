@@ -1,25 +1,14 @@
-# Roadmap RUP - Sistema de reservas de citas
-
-Plan de las cuatro iteraciones, conforme a la matriz fase–artefacto y la guía del Tema 6.
-
-> **Asignación propuesta a solicitud del grupo:** Isaí asume análisis de alcance; Alejandro, arquitectura y diseño técnico; Marco, desarrollo/integración y liderazgo; César, apoyo acotado a planificación de pruebas; Alonso, apoyo documental y recopilación de evidencias. Confirmar la distribución entre los cinco integrantes. Los plazos son relativos y siguen el ejemplo de la guía; las fechas calendario aún deben acordarse.
+# Roadmap RUP - Reservas de citas
 
 | Fase | Iteración | Objetivo | Entregables | Responsable | Plazo |
 |---|---|---|---|---|---|
-| Inicio | ITER-1 | Acordar alcance y viabilidad | Visión v1, SRS breve (Borrador), lista preliminar de casos de uso, roadmap, matriz fase–artefacto, riesgos, diagrama de actividad de CU-002, glosario y checklist de coherencia | **Isaí Samuel Bejarano Benites — Analista** | Semana 1 (propuesta; fecha calendario por confirmar) |
-| Elaboración | ITER-2 | Diseñar y validar el núcleo riesgoso | Refinar el SRS breve, detallar los casos de uso, diagrama de clases, diagrama de secuencia y prototipo | **Alejandro Horna Quezada — Arquitecto** | Semanas 2–3 (propuesta; fechas por confirmar) |
-| Construcción | ITER-3 | Construir las funciones | Módulo de reservas, pruebas y diagrama de estados de Cita | **Alejandro Horna Quezada — responsable técnico de Construcción**, con Marco Antonio Martell Alvarez apoyando desarrollo e integración | Semanas 4–6 (propuesta; fechas por confirmar) |
-| Transición | ITER-4 | Entregar al usuario | Manual de usuario, pruebas de aceptación y puesta en marcha | **Marco Antonio Martell Alvarez — Líder de proyecto** | Semana 7 (propuesta; fecha calendario por confirmar) |
+| Inicio | ITER-1 | Acordar alcance y viabilidad | Visión v1, roadmap, matriz fase–artefacto, riesgos, modelo del proceso crítico | **Isaí Samuel Bejarano Benites — Analista** | Semana 1 |
+| Elaboración | ITER-2 | Diseñar y validar el núcleo riesgoso | SRS breve, casos de uso, diagrama de clases y de secuencia, prototipo | **Alejandro Horna Quezada — Arquitecto** | Semanas 2–3 |
+| Construcción | ITER-3 | Construir las funciones | Módulo de reservas, pruebas, diagrama de estados de Cita | **Cesar Jeremin Alonso Chuquimango Reyes — Desarrollador** | Semanas 4–6 |
+| Transición | ITER-4 | Entregar al usuario | Manual, pruebas de aceptación, puesta en marcha | **Marco Antonio Martell Alvarez — Líder de proyecto** | Semana 7 |
 
-## Apoyos específicos
+**Apoyo asignado:** Alonso Castillo Davalos apoyará la preparación del manual y la organización de evidencias. También es responsable propuesto de RSK-004 (adopción del sistema).
 
-- **Cesar Jeremin Alonso Chuquimango Reyes:** apoyo acotado para organizar el checklist y la preparación de casos de prueba de RSK-003.
-- **Alonso Castillo Davalos:** apoyo documental de Transición: ordenar evidencias reales y ayudar a preparar el manual de usuario y el PDF de entrega.
+**Nota sobre la guía:** en la tabla de roadmap de la página 5, el SRS breve figura como entregable de ITER-2; en la matriz de la página 6, aparece como Borrador en Inicio y Base en Elaboración. Se conserva la tabla de roadmap de la página 5 y el archivo SRS del repositorio se mantiene como borrador, sin presentarlo como validado.
 
-## Estado
-
-- ITER-1: los documentos base están en el repositorio; el SRS está en Borrador y la lista de casos de uso es preliminar.
-- ITER-2 a ITER-4: pendientes; ver los README de cada carpeta.
-- **Fechas calendario:** pendientes de acordar por el grupo; no deben inventarse en Trello.
-- **Trello:** falta confirmar el tablero correcto y reflejar las cuatro tarjetas de iteración, sus responsables, checklists, fechas y las cinco tarjetas de riesgo.
-- Revisión por pares y publicación de `v1.0-iter1`: pendientes.
+Las fechas son las semanas relativas indicadas en la guía. Las fechas calendario y la sincronización con Trello se completarán al realizar el paso 2.
