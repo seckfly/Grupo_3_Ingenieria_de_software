@@ -20,7 +20,7 @@ Hoy las citas se piden por teléfono: hay filas de espera, errores de horarios y
 | Rol | Necesidad |
 |---|---|
 | Paciente | Reservar rápido y sin llamar |
-| Recepcionista | Ver los horarios y las citas sin duplicados |
+| Recepcionista | Consultar horarios y citas sin duplicados; esta necesidad aún no está vinculada a un requisito funcional y debe validarse antes de incorporarla al alcance comprometido |
 | Administrador | Controlar horarios de los médicos |
 
 ## 5. Objetivos medibles

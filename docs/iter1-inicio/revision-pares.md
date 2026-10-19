@@ -1,13 +1,14 @@
 # Revisión por pares - ITER-1
 
-> **Estado: pendiente.** Todavía no hay compañero revisor confirmado. No existe ninguna revisión, comentario ni aprobación de un compañero. Las filas del checklist siguen pendientes hasta que la persona revisora las complete en el Pull Request o en un Google Doc compartido.
+> **Estado: pendiente de ejecución.** La revisión por pares debe realizarla una persona distinta de quien preparó los cambios que se revisan. No se registrará como completada hasta que exista una revisión real en GitHub o un documento compartido con sus observaciones.
 
 - Pull Request: https://github.com/seckfly/Grupo_3_Ingenieria_de_software/pull/1
-- Revisor: Por confirmar
+- Revisor propuesto: **Isaí Samuel Bejarano Benites** (usuario de GitHub por confirmar).
+- Autor principal de los cambios recientes: Marco Antonio Martell Alvarez.
 
 ## Checklist para el revisor
 
-| # | Pregunta | Sí / No |
+| # | Pregunta | Resultado |
 |---|---|---|
 | 1 | ¿La Visión define claramente qué incluye y qué NO incluye? | Pendiente de revisión |
 | 2 | ¿El roadmap tiene entregables y responsable en cada iteración? | Pendiente de revisión |
@@ -19,19 +20,10 @@
 
 ## Tabla de hallazgos de la revisión por pares
 
-| # | Hallazgo | Corrección | Estado |
+| # | Hallazgo del revisor | Corrección | Estado |
 |---|---|---|---|
-| — | La revisión humana todavía no se ha realizado | Pendiente de revisión por un compañero | Pendiente |
+| — | La revisión humana aún no se ha realizado | El revisor debe comentar el PR, el equipo debe responder y aplicar las correcciones necesarias | Pendiente |
 
-## Hallazgos técnicos del autor (no es revisión por pares)
+## Autorrevisión técnica del autor (no sustituye la revisión por pares)
 
-Autorrevisión documental; el detalle está en [checklist-coherencia.md](checklist-coherencia.md) (H1–H13). Resumen:
-
-| # | Hallazgo | Estado |
-|---|---|---|
-| T1 | Escapes Markdown en la Visión (H1) | Corregido |
-| T2 | Términos no oficiales «agenda» y «reserva» (H2, H4) | Corregido |
-| T3 | Contador de reintentos sin inicialización y límite ambiguo (H5) | Corregido |
-| T4 | Final único mezclaba confirmación enviada y Pendiente (H6) | Corregido |
-| T5 | Faltaba el SRS breve y la lista preliminar de casos de uso; se creó el borrador con REQ-001..003 y CU-001..003 | Corregido; los detalles completos de CU-001 y CU-003 quedan para ITER-2 |
-| T6 | La necesidad de la recepcionista no está vinculada a un requisito funcional de alto nivel | Pendiente de validar el alcance; no se inventó un requisito |
+Los hallazgos documentales detectados por el autor están en [checklist-coherencia.md](checklist-coherencia.md), identificados como H1–H13. La coincidencia del autor con respuestas de un ejercicio de práctica no equivale a una revisión del PR realizada por otra persona.
