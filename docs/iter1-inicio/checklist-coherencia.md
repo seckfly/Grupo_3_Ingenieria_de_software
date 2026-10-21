@@ -20,3 +20,4 @@ Comprobación de coherencia entre la Visión, el SRS breve y los modelos de CU-0
 | 3 | El SRS breve debía registrar los flujos alternos del proceso crítico para contrastarlos con el diagrama | Se documentaron E1, E2, E3 y C1 en el SRS breve | Corregido |
 | 4 | El significado de Pendiente y el número de reintentos debían estar expresos en la documentación | Se añadieron las definiciones al glosario y el control del contador al SRS, en correspondencia con el diagrama | Corregido |
 | 5 | El roadmap debía relacionar las mitigaciones con cada iteración | Se consolidó el plan de siete semanas y se vincularon RSK-001 a RSK-004 con ITER-1 a ITER-4 | Corregido |
+prueba
