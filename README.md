@@ -9,8 +9,8 @@ El sistema permite registrar pacientes, reservar y cancelar citas médicas en l�
 | Integrante | Responsabilidad |
 |---|---|
 | Marco Antonio Martell Alvarez | Líder de proyecto e integración; responsable de ITER-4 |
-| Alejandro Horna Quezada | Arquitectura y diseño del núcleo crítico; responsable de ITER-2 |
-| Isaí Samuel Bejarano Benites | Análisis del alcance y riesgos de Inicio; responsable de ITER-1 |
+| Alejandro Horna Quezada | Arquitectura y diseño del núcleo crítico; responsable de ITER-1 |
+| Isaí Samuel Bejarano Benites | Análisis del alcance y riesgos de Inicio; responsable de ITER-2 |
 | Cesar Jeremin Alonso Chuquimango Reyes | Seguimiento de entregables y pruebas de Construcción; responsable de ITER-3 |
 | Alonso Castillo Davalos | Organización de evidencias y apoyo documental; responsable de RSK-004 |
 
